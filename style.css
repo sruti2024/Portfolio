@@ -1,0 +1,244 @@
+    *{
+    	margin:0;
+    }
+	
+	body{
+		margin:0;
+	}
+	#first{
+		/*background-image: url("https://image.freepik.com/free-photo/orange-acrylic-paint-textured-background_53876-88475.jpg");#ffe7e9,#ffced2,#ffb4bb,#ff9ba4,#ff818d,#ff6876*/
+		
+		/*background :radial-gradient(#f3d4d4,#fc9d9d,#ea728c);*/
+		background-image: url("back7.jpg");
+		background-size:100%;
+		background-width:626px ;
+		background-height:367px;
+		width:100%;
+		height:660px;
+		margin:0px;
+		border:0%;
+	}
+	.name{
+		position: relative;
+		top:18%;
+		font-family: 'Tangerine', cursive;
+		font-size: 50px;
+		color:#4f3961;
+		margin:0px;
+
+	}
+	/*=================arrow in first slide=============================*/
+
+	.arrow{
+		position:relative;
+		font-size: 48px;
+		text-align: center;
+		transform:rotate(90deg);
+		animation:bouncearrow 0.6s infinite;
+	}
+	@keyframes bouncearrow{
+		0%{top:150px;}
+		50%{top:180px;}
+		100%{top:150px;}
+	}
+
+	/*==========================about=============================*/
+
+	.profile
+    {
+    	text-align: center;
+    	margin:10px 300px;
+    	padding:0px auto;
+
+    }
+
+
+	#pic{
+		margin:10px auto 10px auto;
+		padding: 10px;
+		width:300px;
+		height:300px;
+
+	}
+	
+    h2{
+    	color:#4f3961;
+    	font-size: 2em;
+    	font-family: 'Monoton', cursive;
+
+    }
+    p{
+    	font-family: 'Raleway', sans-serif;
+    }
+    .intro{
+    	margin-left: auto;
+    	margin-right: auto;
+    	width:370px;
+    	line-height: 2;
+    }
+
+     hr{
+     	border: dotted #f3d4d4 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 50px auto;
+     }
+	/*#nav
+	{
+	position:fixed;	
+	top:0px;
+	margin: 0px;
+	padding: 0px;
+	color:pink;
+	font-size: 15px;
+	background-color: black;
+	font-family:Century Schoolbook;
+	text-align:center;
+	height:20px;
+
+    }*/
+
+    /*==========================navigation bar==================================*/
+    .navbar{
+    	top:100%;
+    }
+    .button{
+    	box-sizing: border-box;
+    	margin:0px;
+    	padding:0px;
+    	text-align: center;
+
+    }
+    #first ul{
+    	position:fixed;
+    	top:100px;
+    	left:90%;
+    	padding:0px;
+    	font-family: 'Alegreya', serif;
+    	/*font-family:Century Schoolbook;*/
+    	list-style-type: none;
+    }
+    #first li{
+    	display:inline;
+    	text-align: center;
+    }
+    #first a{
+    	display:block;
+    	text-decoration: none;
+    	color:#f3d4d4;
+    	width: 100px;
+    	background-color: black;
+    	padding:10px;
+        height:100px;
+    	line-height: 3em;
+
+    }
+    #first a:hover{
+    	color :black;
+    	background-color:#f3d4d4;
+    	
+    }
+    .fas , .far{
+    	padding-right: 5px;
+    }
+     /*==============================skill=============================================*/
+
+     #skills{
+     	background-color:#f3d4d4;
+     	margin-left: auto;
+    	margin-right: auto;
+    	padding:20px;
+    	text-align: center;
+
+     }
+
+    .para1{
+           width: 50%;
+           margin: 50px auto 50px auto;
+           text-align: right;
+           line-height: 2;
+           
+     }
+     .para2{
+           text-align: right;
+           line-height: 2;
+           
+     }
+     .para3{
+
+           text-align: left;
+           line-height: 2;
+
+     }
+     table {
+        border-collapse: separate;
+        border-spacing:10px 40px;
+      }
+     h3{
+     	color:#4f3961;
+    	padding-bottom:0.5em;
+    	font-family: 'Monoton', cursive;
+     }
+     
+     .gif1{
+     	width: 250px;
+        float: left;  
+     }
+
+     .gif2{
+     	width: 250px;
+        float: right;  
+     }
+     .gif3{
+     	width: 250px;
+     	float:left;
+          
+     }
+
+
+     .skill-row{
+     	
+     	padding:30px 0 30px;
+     }
+/*==============================================*/
+
+/*=============achievement===============*/
+
+#achievement
+{
+	padding:80px;
+
+}
+.list-group{
+	padding-right:60px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.git{
+	width:50px;
+}
+.gfg{
+	width:30px;
+}
+/*------------------------*/
+
+
+/*-----contact----------*/
+#contact{
+	background-color:#311d3f;
+	text-align: center;
+	padding:100px;
+	color:#f3d4d4;
+}
+.con{
+	color:#f3d4d4;
+}
+.contact-link {
+     color:#f3d4d4;
+}
+.fa{
+	padding:10px;
+}
+
+    font-family: 'Alegreya', serif;
+font-family: 'Monoton', cursive;
